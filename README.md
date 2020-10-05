@@ -14,3 +14,12 @@ Or, slightly more specifically:
 There were a few project ideas suggested, and I chose to try and create an online cookbook.
 
 ---
+
+## Table of Contents
+1. [**UX**](#user-experience)
+    - [**User Stories**](#user-stories)
+    - [**Strategy**](#strategy)
+    - [**Scope**](#scope)
+    - [**Structure**](#structure)
+    - [**Skeleton**](#skeleton)
+    - [**Surface**](#surface)
