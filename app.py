@@ -13,7 +13,8 @@ app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
 def hello():
     return "Hello app"
 
+
 if __name__ == '__main__':
-    app.run(host=os.environ.get('IP')),
-    port=int(os.environ.get('PORT')),
-    debug=True
+    app.run(host=os.environ.get('IP'),
+    port = int(os.environ.get('PORT')),
+    debug = True)
