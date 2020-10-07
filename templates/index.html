@@ -1,13 +1,11 @@
-{% extends 'base.html' %} 
-{% block content %} 
-
-{% for recipe in recipes %}
-
-    {{recipe.recipe_name}} 
-    {{recipe.course}} 
-    {{recipe.meal}}
-    {{recipe.preparation_time}} 
-
-{% endfor %} 
-
+{% extends 'base.html' %}
+{% block content %}
+<h2>Test <strong>index.html</strong> content</h2>
+    {% for recipe in recipes %}
+        {{recipe.recipe_name}}
+        {{recipe.course}}
+        {{recipe.meal}}
+        {{recipe.preparation_time}}
+    {% endfor %}
 {% endblock %}
+
