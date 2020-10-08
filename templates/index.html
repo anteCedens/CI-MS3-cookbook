@@ -1,11 +1,28 @@
-{% extends 'base.html' %}
-{% block content %}
-<h2>Test <strong>index.html</strong> content</h2>
-    {% for recipe in recipes %}
-        {{recipe.recipe_name}}
-        {{recipe.course}}
-        {{recipe.meal}}
-        {{recipe.preparation_time}}
-    {% endfor %}
-{% endblock %}
+{% extends 'base.html' %} {% block content %}
 
+<div class="carousel">
+  <a class="carousel-item" href="#one!"
+    ><img
+      src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=700%2C636"
+  /></a>
+  <a class="carousel-item" href="#two!"
+    ><img
+      src="https://post.healthline.com/wp-content/uploads/2020/07/pizza-beer-1200x628-facebook-1200x628.jpg"
+  /></a>
+  <a class="carousel-item" href="#three!"
+    ><img
+      src="https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/38/1474395998-ghk-0216-comfortfoodcover-meatballs.jpg?crop=0.856xw:0.571xh;0.0224xw,0.296xh&resize=640:*"
+  /></a>
+  <a class="carousel-item" href="#four!"
+    ><img
+      src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20190503-delish-pineapple-baked-salmon-horizontal-ehg-450-1557771120.jpg"
+  /></a>
+  <a class="carousel-item" href="#five!"
+    ><img
+      src="https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/AN_images/eggs-breakfast-avocado-1296x728-header.jpg?w=1155&h=1528"
+  /></a>
+</div>
+
+<h2>Test <strong>index.html</strong> content</h2>
+{% for recipe in recipes %} {{recipe.recipe_name}} {{recipe.course}}
+{{recipe.meal}} {{recipe.preparation_time}} {% endfor %} {% endblock %}
