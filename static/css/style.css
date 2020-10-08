@@ -16,4 +16,8 @@ body {
 
 #about {
   height: 50%;
+  background-image: url("../img/wood-1819542_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
