@@ -12,7 +12,11 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="{{url_for('static', filename='css/style.css')}}"
+      type="text/css"
+    />
     <title>Title</title>
   </head>
   <body>
@@ -54,11 +58,6 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-    <script type="text/javascript">
-      $(".carousel").carousel();
-      setInterval(function () {
-        $(".carousel").carousel("next");
-      }, 2500);
-    </script>
+    <script src="{{url_for('static', filename='js/script.js')}}"></script>
   </body>
 </html>
