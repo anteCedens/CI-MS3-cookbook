@@ -21,6 +21,11 @@ def index_page():
     return render_template("index.html", recipes=mongo.db.recipes.find())
 
 
+@app.route('/sign_in')
+def sign_in():
+    return render_template('signin.html')
+
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
