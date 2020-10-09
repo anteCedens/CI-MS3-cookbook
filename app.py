@@ -26,9 +26,9 @@ def recipes_list():
     return render_template("recipes_list.html", recipes=mongo.db.recipes.find())
 
 
-@app.route('/sign_in')
-def sign_in():
-    return render_template('signin.html')
+@app.route('/contact_us')
+def contact_us():
+    return render_template('contact_us.html')
 
 
 @app.route('/recipe_details/<recipe_id>')
