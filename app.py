@@ -26,6 +26,15 @@ def sign_in():
     return render_template('signin.html')
 
 
+@app.route('/recipe_details/<recipe_id>')
+def recipe_details(recipe_id):
+    try:
+        the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+        return render_template('recipe_details.html', recipe=the_recipe)
+    except Exception:
+        return render_template("404.html")
+
+
 if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
