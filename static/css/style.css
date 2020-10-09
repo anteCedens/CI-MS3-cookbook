@@ -36,3 +36,11 @@ p {
   font-weight: 900;
   font-size: 1.25em;
 }
+
+#logo-button {
+  font-size: 3em;
+}
+
+.nav-wrapper li a {
+  font-size: 1.5em;
+}
