@@ -27,3 +27,12 @@ body {
 p {
   font-family: "Architects Daughter", cursive;
 }
+
+#welcome-text {
+  font-size: 1.5em;
+}
+
+#welcome-text strong {
+  font-weight: 900;
+  font-size: 1.25em;
+}
