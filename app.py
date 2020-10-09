@@ -21,6 +21,11 @@ def index_page():
     return render_template("index.html", recipes=mongo.db.recipes.find())
 
 
+@app.route('/recipes_list')
+def recipes_list():
+    return render_template("recipes_list.html", recipes=mongo.db.recipes.find())
+
+
 @app.route('/sign_in')
 def sign_in():
     return render_template('signin.html')
