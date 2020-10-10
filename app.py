@@ -14,30 +14,27 @@ app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
 
 mongo = PyMongo(app)
 
+# index.html / homepage
+
 
 @app.route('/')
 @app.route('/index_page')
 def index_page():
     return render_template("index.html", recipes=mongo.db.recipes.find())
 
+# Browse Recipes
+
 
 @app.route('/recipes_list')
 def recipes_list():
     return render_template("recipes_list.html", recipes=mongo.db.recipes.find())
 
+# Contact Us
+
 
 @app.route('/contact_us')
 def contact_us():
     return render_template('contact_us.html')
-
-
-@app.route('/recipe_details/<recipe_id>')
-def recipe_details(recipe_id):
-    try:
-        the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
-        return render_template('recipe_details.html', recipe=the_recipe)
-    except Exception:
-        return render_template("404.html")
 
 
 if __name__ == '__main__':
