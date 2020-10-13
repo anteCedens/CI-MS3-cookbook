@@ -31,7 +31,7 @@ def recipes_list():
 # Post Recipe
 @app.route('/add_recipe')
 def add_recipe():
-    return render_template('add_recipe.html')
+    return render_template("add_recipe.html", recipes=mongo.db.recipes.find())
 
 
 # Contact Us
