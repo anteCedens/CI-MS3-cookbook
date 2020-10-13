@@ -41,7 +41,16 @@ def insert_recipe():
     return redirect(url_for('recipes_list'))
 
 
+@app.route('/edit_recipe/<recipe_id>')
+def edit_recipe(recipe_id):
+    the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+    all_meals = mongo.db.meal.find()
+    return render_template('edit_recipe.html', recipe=the_recipe,
+                           meal=all_meals)
+
 # Contact Us
+
+
 @app.route('/contact_us')
 def contact_us():
     return render_template('contact_us.html')
