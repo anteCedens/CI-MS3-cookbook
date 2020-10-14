@@ -70,9 +70,9 @@ def delete_recipe(recipe_id):
 # Contact Us
 
 
-@app.route('/contact_us')
-def contact_us():
-    return render_template('contact_us.html')
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 
 if __name__ == '__main__':
