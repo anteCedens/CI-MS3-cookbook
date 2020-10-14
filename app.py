@@ -48,6 +48,13 @@ def edit_recipe(recipe_id):
     return render_template('edit_recipe.html', recipe=the_recipe,
                            meal=all_meals)
 
+
+@app.route('/delete_recipe/<recipe_id>')
+def delete_recipe(recipe_id):
+    mongo.db.recipes.remove({'_id': ObjectId(recipe_id)})
+    return redirect(url_for('recipes_list'))
+
+
 # Contact Us
 
 
