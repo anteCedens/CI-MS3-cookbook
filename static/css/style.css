@@ -7,35 +7,25 @@ body {
   font-family: "Lobster", cursive;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
 .carousel {
-  height: 70%;
+  height: 100%;
   background-image: url("../img/1306217.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 125%;
 }
 
+footer {
+  background-image: url("../img/712468.jpg");
+}
+
 #about {
-  height: 30%;
+  height: 100%;
   background-image: url("../img/wood-1819542_1920.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-}
-
-p {
-  font-family: "Architects Daughter", cursive;
 }
 
 #welcome-text {
@@ -54,3 +44,50 @@ p {
 .nav-wrapper li a {
   font-size: 1.5em;
 }
+
+.card-size {
+    height: 15em;
+    width: 100%;
+    border: 5px solid red;
+}
+
+.test-border {
+    border: 5px solid black;
+}
+
+.test-border-2 {
+    border: 5px solid green;
+}
+
+.test-border-3 {
+    border: 5px solid blue;
+}
+
+/*start: Gallery "masonry" style styling.
+#recipes-list-outer {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#recipes-list-outer img {
+  width: 100%;
+} end: Gallery "masonry" style styling.*/
+
+/*
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+p {
+  font-family: "Architects Daughter", cursive;
+}
+
