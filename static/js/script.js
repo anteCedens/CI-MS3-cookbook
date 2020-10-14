@@ -7,4 +7,5 @@ $(document).ready(function () {
   $(".collapsible").collapsible();
   $(".button-collapse").sideNav();
   $('.fixed-action-btn').floatingActionButton();
+  $('.tooltipped').tooltip();
 });
