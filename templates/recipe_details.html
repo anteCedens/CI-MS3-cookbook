@@ -1,27 +1,9 @@
 {% extends 'base.html' %} {% block content %}
 
+<h1>RECIPE DETAILS PAGE</h1>  
+<h1>{{recipe.recipe_name}}</h1>
+<h2>{{recipe.recipe_description}}</h2>
+<img src="{{recipe.image_src}}"/>
 
-<div class="center-align">
-	<h4>{{recipes.recipe_name}}</h4>
-</div>
-<hr />
-<div class="row">
-	<div class="col s12">
-		<ul class="center-align">
-			<li class="col s3">
-				<p><strong>Meal</strong></p>
-				{{recipes.meal}}
-			</li>
-			<li class="col s3">
-				<p><strong>Course</strong></p>
-				{{recipes.course}}
-			</li>
-			<li class="col s3">
-				<p><strong>Preparation Time</strong></p>
-				{{recipes.preparation_time}}
-			</li>
-		</ul>
-	</div>
-</div>
 
 {% endblock %}
