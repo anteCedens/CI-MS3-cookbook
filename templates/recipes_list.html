@@ -21,7 +21,7 @@
           >{{recipe.recipe_name}}
           <i class="material-icons right">expand_more</i></span
         >
-        <p><a href="#">This is a link</a></p>
+        <p><a href="{{url_for('recipe_details', recipe_id=recipe._id)}}">Recipe details</a></p>
       </div>
       <div class="card-reveal">
         <span class="card-title grey-text text-darken-4"
@@ -31,7 +31,7 @@
         <p>
           {{recipe.recipe_description}}
         </p>
-        <p><a href="#">This is a link</a></p>
+        <p><a href="{{url_for('recipe_details', recipe_id=recipe._id)}}">Recipe details</a></p>
       </div>
     </div>
   </div>
