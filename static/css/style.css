@@ -85,8 +85,12 @@ footer .container {
 }
 
 footer .container i {
-  padding-left: 2.5em;
+  /*padding-left: 2.5em;*/
   text-shadow: 2px 2px 4px #000000;
+}
+
+.fa-instagram {
+    padding: 0 2.5em 0 2.5em;
 }
 
 .custom-card-title {
