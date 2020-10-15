@@ -79,36 +79,3 @@ footer .container {
 footer .container i {
     padding-left: 2.5em;
 }
-
-/*nav div a {
-    color: black !important;
-}*/
-
-/*start: Gallery "masonry" style styling.
-#recipes-list-outer {
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
-}
-
-#recipes-list-outer img {
-  width: 100%;
-} end: Gallery "masonry" style styling.*/
-
-/*
-
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-}
-
-main {
-  flex: 1 0 auto;
-}
-
-p {
-  font-family: "Architects Daughter", cursive;
-}
-
