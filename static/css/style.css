@@ -73,6 +73,14 @@ footer {
     border: 5px solid blue;
 }
 
+nav {
+    background-image: url("../img/981559.jpg");
+}
+
+nav div a {
+    color: black !important;
+}
+
 /*start: Gallery "masonry" style styling.
 #recipes-list-outer {
   clear: both;
