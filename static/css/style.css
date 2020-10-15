@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 125%;
-  border-top: 1px solid transparent;
+  border-top: 1px solid transparent; /* Bug fix */
 }
 
 .carousel {
@@ -32,7 +32,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
-  border-top: 1px solid transparent;
+  border-top: 1px solid transparent;  /* Bug fix */
 }
 
 #welcome-text {
@@ -108,7 +108,7 @@ footer .container i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 1px solid transparent;
+  border-top: 1px solid transparent;  /* Bug fix */
 }
 
 #edit-recipe-outer {
@@ -117,5 +117,5 @@ footer .container i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 1px solid transparent;
+  border-top: 1px solid transparent;  /* Bug fix */
 }
