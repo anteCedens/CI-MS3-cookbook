@@ -79,3 +79,7 @@ footer .container {
 footer .container i {
     padding-left: 2.5em;
 }
+
+.custom-card-title {
+    height: 3em;
+}
