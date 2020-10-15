@@ -208,7 +208,6 @@ footer .container i {
   background-size: cover;
 }
 
-
 /* ------------------------Split the screen in half------------------- */
 .split {
   height: 100%;
@@ -246,3 +245,11 @@ footer .container i {
 }
 
 /* ------------------------Split the screen in half (end)------------------- */
+
+#page-404 {
+  height: 100%;
+  background-image: url("../img/error-404-concept-landing-page_52683-18367.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-top: 1px solid transparent; /* Bug fix */
+}
