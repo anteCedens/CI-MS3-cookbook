@@ -108,6 +108,7 @@ footer .container i {
 #delete-button {
   width: 20%;
   padding: 0 0 0 1%;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #delete-button i {
@@ -116,6 +117,7 @@ footer .container i {
 
 #submit-button {
   width: 30%;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 #add-recipe-outer {
@@ -244,8 +246,3 @@ footer .container i {
 }
 
 /* ------------------------Split the screen in half (end)------------------- */
-
-#submit-button,
-#delete-button {
-    text-shadow: 2px 2px 4px #000000;
-}
