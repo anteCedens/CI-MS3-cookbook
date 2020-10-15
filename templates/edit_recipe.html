@@ -1,91 +1,96 @@
 {% extends 'base.html' %} {% block content %}
-<h3>Edit Recipe</h3>
+<div id="edit-recipe-outer">
+  <h3>Edit Recipe</h3>
 
-<div class="row">
-  <form
-    action="{{ url_for('update_recipe', recipe_id=recipe._id) }}"
-    method="POST"
-    class="col s12"
-  >
-    <div class="row">
-      <div class="col s12 m6">
-        <div class="card blue-grey darken-1">
-          <div class="card-content white-text">
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">spellcheck</i>
-                <input
-                  id="recipe_name"
-                  name="recipe_name"
-                  type="text"
-                  class="validate"
-                  value="{{recipe.recipe_name}}"
-                />
-                <label for="icon_prefix">Recipe Name</label>
+  <div class="row">
+    <form
+      action="{{ url_for('update_recipe', recipe_id=recipe._id) }}"
+      method="POST"
+      class="col s12"
+    >
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card blue-grey darken-1">
+            <div class="card-content white-text">
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">spellcheck</i>
+                  <input
+                    id="recipe_name"
+                    name="recipe_name"
+                    type="text"
+                    class="validate"
+                    value="{{recipe.recipe_name}}"
+                  />
+                  <label for="icon_prefix">Recipe Name</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">alarm</i>
-                <input
-                  id="preparation_time"
-                  name="preparation_time"
-                  type="text"
-                  class="validate"
-                  value="{{recipe.preparation_time}}"
-                />
-                <label for="icon_prefix">Preparation Time</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">alarm</i>
+                  <input
+                    id="preparation_time"
+                    name="preparation_time"
+                    type="text"
+                    class="validate"
+                    value="{{recipe.preparation_time}}"
+                  />
+                  <label for="icon_prefix">Preparation Time</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">short_text</i>
-                <textarea
-                  name="recipe_description"
-                  id="recipe_description"
-                  class="materialize-textarea"
-                >
-{{recipe.recipe_description}}</textarea
-                >
-                <label for="icon_telephone">Recipe Description</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">short_text</i>
+                  <textarea
+                    name="recipe_description"
+                    id="recipe_description"
+                    class="materialize-textarea"
+                  >
+    {{recipe.recipe_description}}</textarea
+                  >
+                  <label for="icon_telephone">Recipe Description</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <div class="input-field col s12">
-                <i class="material-icons prefix">insert_link</i>
-                <textarea
-                  name="image_src"
-                  id="image_src"
-                  class="materialize-textarea"
-                >
-{{recipe.image_src}}</textarea
-                >
-                <label for="icon_telephone">Image Link</label>
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">insert_link</i>
+                  <textarea
+                    name="image_src"
+                    id="image_src"
+                    class="materialize-textarea"
+                  >
+    {{recipe.image_src}}</textarea
+                  >
+                  <label for="icon_telephone">Image Link</label>
+                </div>
               </div>
-            </div>
-            <div class="row">
-              <button class="btn waves-effect waves-light" type="submit" id="submit-button">
-                Update
-                <i class="material-icons right">autorenew</i>
-              </button>
-            </div>
-            <div class="row">
+              <div class="row">
+                <button
+                  class="btn waves-effect waves-light"
+                  type="submit"
+                  id="submit-button"
+                >
+                  Update
+                  <i class="material-icons right">autorenew</i>
+                </button>
+              </div>
+              <div class="row">
                 <button class="btn waves-effect waves-light" id="delete-button">
                   <a href="{{url_for('delete_recipe', recipe_id=recipe._id)}}"
                     >Delete</a
                   >
                   <i class="material-icons right small">clear</i>
                 </button>
+              </div>
             </div>
-          </div>
-          <div class="card-action">
-            <a href="#">This is a link</a>
-            <a href="#">This is a link</a>
+            <div class="card-action">
+              <a href="#">This is a link</a>
+              <a href="#">This is a link</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </form>
+    </form>
+  </div>
 </div>
-
 {% endblock %}

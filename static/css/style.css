@@ -110,3 +110,12 @@ footer .container i {
   background-size: cover;
   border-top: 1px solid transparent;
 }
+
+#edit-recipe-outer {
+  height: 140%; /* Brute force bug fix */
+  background-image: url("../img/fYQk0K.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px solid transparent;
+}
