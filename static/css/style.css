@@ -83,3 +83,7 @@ footer .container i {
 .custom-card-title {
     height: 3em;
 }
+
+.activator:hover {
+  cursor: pointer;
+}
