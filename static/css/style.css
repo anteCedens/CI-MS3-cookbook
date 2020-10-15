@@ -47,6 +47,7 @@ body {
 
 #welcome-text {
   font-size: 1.5em;
+  width: 70%;
 }
 
 #welcome-text strong {
