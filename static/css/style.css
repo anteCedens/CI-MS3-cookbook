@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 125%;
-  border-top: 3px solid red;
+  border-top: 1px solid transparent;
 }
 
 .carousel {
@@ -25,9 +25,9 @@ body {
     height: 100%;
 }
 
-footer {
+/*footer {
   background-image: url("../img/712468.jpg");
-}
+}*/
 
 #about {
   height: 100%;
@@ -36,6 +36,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  border-top: 1px solid transparent;
 }
 
 #welcome-text {
@@ -53,6 +54,12 @@ footer {
 
 .nav-wrapper li a {
   font-size: 1.5em;
+}
+
+#logo-button,
+#welcome-text,
+#about {
+    padding-left: 0.25em;
 }
 
 .card-size {
@@ -73,13 +80,18 @@ footer {
     border: 5px solid blue;
 }
 
-nav {
-    background-image: url("../img/981559.jpg");
+nav,
+footer {
+    background-image: url("../img/Y9CsAi.jpg");
 }
 
-nav div a {
-    color: black !important;
+footer .container {
+    padding-bottom: 0.5em;
 }
+
+/*nav div a {
+    color: black !important;
+}*/
 
 /*start: Gallery "masonry" style styling.
 #recipes-list-outer {
