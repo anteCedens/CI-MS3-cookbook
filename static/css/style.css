@@ -90,7 +90,7 @@ footer .container i {
 }
 
 .fa-instagram {
-    padding: 0 2.5em 0 2.5em;
+  padding: 0 2.5em 0 2.5em;
 }
 
 .custom-card-title {
@@ -176,20 +176,20 @@ footer .container i {
 }
 
 #recipe-details-outer p {
-    font-weight: 900;
-    font-size: 2em;
+  font-weight: 900;
+  font-size: 2em;
 }
 
 #recipe-details-text {
-    width: 50%;
-    position: left;
-    border: 2px solid blue;
+  width: 50%;
+  position: left;
+  border: 2px solid blue;
 }
 
 #recipe-details-img {
-    width: 50%;
-    position: absolute;
-    border: 2px solid red;
+  width: 50%;
+  position: absolute;
+  border: 2px solid red;
 }
 
 #edit-recipe-form {
@@ -204,4 +204,48 @@ footer .container i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+/* ------------------------Split the screen in half------------------- */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
+/* If you want the content centered horizontally and vertically */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+/* ------------------------Split the screen in half (end)------------------- */
+
+#submit-button,
+#delete-button {
+    text-shadow: 2px 2px 4px #000000;
 }
