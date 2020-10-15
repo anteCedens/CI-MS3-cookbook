@@ -65,19 +65,6 @@ body {
 .card-size {
     height: 15em;
     width: 100%;
-    border: 5px solid red;
-}
-
-.test-border {
-    border: 5px solid black;
-}
-
-.test-border-2 {
-    border: 5px solid green;
-}
-
-.test-border-3 {
-    border: 5px solid blue;
 }
 
 nav,
@@ -87,6 +74,10 @@ footer {
 
 footer .container {
     padding-bottom: 0.5em;
+}
+
+footer .container i {
+    padding-left: 2.5em;
 }
 
 /*nav div a {
