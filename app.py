@@ -55,8 +55,9 @@ def update_recipe(recipe_id):
     recipes.update({'_id': ObjectId(recipe_id)},
                  {
         'recipe_name': request.form.get('recipe_name'),
-        'meal': request.form.get('meal'),
-        'recipe_description': request.form.get('recipe_description')
+        'preparation_time': request.form.get('preparation_time'),
+        'recipe_description': request.form.get('recipe_description'),
+        'image_src': request.form.get('image_src')
     })
     return redirect(url_for('recipes_list'))
 
