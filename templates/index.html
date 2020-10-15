@@ -1,16 +1,16 @@
 {% extends 'base.html' %} {% block content %}
 <div id="index-outer">
-  <div id="welcome-text">
-    <h3>Welcome!</h3>
-    <p>to <strong>Q-zine</strong> - an online fanzine for fans of cuisine!</p>
-  </div>
+    <div id="welcome-text">
+        <h3>Welcome!</h3>
+        <p>to <strong>Q-zine</strong> - an online fanzine for fans of cuisine!</p>
+    </div>
 
-  <div class="carousel">
-    {% for recipe in recipes %}
+    <div class="carousel">
+        {% for recipe in recipes %}
 
-    <a class="carousel-item" href="#"><img src="{{recipe.image_src}}" /></a>
+        <a class="carousel-item" href="#"><img src="{{recipe.image_src}}" /></a>
 
-    {% endfor %}
-  </div>
+        {% endfor %}
+    </div>
 </div>
 {% endblock %}

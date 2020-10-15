@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chilanka&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap");
 
 html,
 body {
@@ -14,7 +13,7 @@ body {
 }
 
 .heading-style {
-    font-family: "Lobster", cursive;
+  font-family: "Lobster", cursive;
 }
 
 #index-outer {
@@ -134,17 +133,17 @@ footer .container i {
 }
 
 #about-text {
-    width: 60%;
+  width: 60%;
 }
 
 #about-text p {
-    font-size: 1.5em;
-    font-family: "Indie Flower", cursive;
-    /*font-family: "Architects Daughter", cursive;*/
-    /*font-family: "Amatic SC", cursive;*/
-    /*font-family: "Sansita Swashed", cursive;*/
-    /*font-family: "Chilanka", cursive;*/
-    /*font-family: "Josefin Sans", cursive;*/
+  font-size: 1.5em;
+  font-family: "Indie Flower", cursive;
+  /*font-family: "Architects Daughter", cursive;*/
+  /*font-family: "Amatic SC", cursive;*/
+  /*font-family: "Sansita Swashed", cursive;*/
+  /*font-family: "Chilanka", cursive;*/
+  /*font-family: "Josefin Sans", cursive;*/
 }
 
 #mobile-demo {
@@ -154,10 +153,44 @@ footer .container i {
   background-size: cover;
 }
 
-.card-reveal p {
-    font-family: "Indie Flower", cursive;
+.card-reveal p,
+#recipe-details-outer p {
+  font-family: "Indie Flower", cursive;
 }
 
 .bold-font {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+#recipe-details-outer {
+  height: 140%; /* Brute force bug fix */
+  background-image: url("../img/fYQk0K.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 1px solid transparent; /* Bug fix */
+}
+
+#recipe-details-outer p {
+    font-weight: 900;
+    font-size: 2em;
+}
+
+#recipe-details-text {
+    width: 50%;
+    position: left;
+    border: 2px solid blue;
+}
+
+#recipe-details-img {
+    width: 50%;
+    position: absolute;
+    border: 2px solid red;
+}
+
+#edit-recipe-form {
+  background-image: url("../img/4BXEYp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

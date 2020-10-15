@@ -1,7 +1,17 @@
 {% extends 'base.html' %} {% block content %}
 
-<h1>RECIPE DETAILS PAGE</h1>
+<div id="recipe-details-outer">
+  <div class="split left">
+  <div class="centered">
+    <h2>{{recipe.recipe_name}}</h2>
+    <p>{{recipe.recipe_description}}</p>
+  </div>
+</div>
 
-<h3>{{recipe.recipe_name}}</h3>
-
+<div class="split right">
+  <div class="centered">
+    <img src="{{recipe.image_src}}" />
+  </div>
+</div>
+</div>
 {% endblock %}
