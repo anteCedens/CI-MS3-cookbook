@@ -68,8 +68,11 @@ def delete_recipe(recipe_id):
 
 @app.route('/recipe_details/<recipe_id>')
 def recipe_details(recipe_id):
-    the_recipe = mongo.db.recipe.find_one({"_id": ObjectId(recipe_id)})
-    return render_template('recipe_details.html', recipe=the_recipe)
+    try:
+        the_recipe = mongo.db.recipes.find_one({"_id": ObjectId(recipe_id)})
+        return render_template('recipe_details.html', recipe=the_recipe)
+    except Exception:
+        return render_template("404.html")
 
 
 # Contact Us
