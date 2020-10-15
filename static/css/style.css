@@ -13,6 +13,10 @@ body {
   font-family: "Lobster", cursive;
 }
 
+.heading-style {
+    font-family: "Lobster", cursive;
+}
+
 #index-outer {
   height: 100%;
   background-image: url("../img/1306217.jpg");
@@ -147,4 +151,8 @@ footer .container i {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card-reveal p {
+    font-family: "Indie Flower", cursive;
 }

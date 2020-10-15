@@ -45,8 +45,13 @@
           {{recipe.recipe_description}}
         </p>
         <p>
-          <a href="{{url_for('recipe_details', recipe_id=recipe._id)}}"
-            >Recipe details</a
+          <i class="material-icons prefix">alarm</i> {{recipe.preparation_time}}
+        </p>
+        <p>
+          <a
+            href="{{ url_for('recipe_details', recipe_id=recipe._id) }}"
+            class="waves-effect waves-light btn btn_size heading-style"
+            >View</a
           >
         </p>
       </div>
