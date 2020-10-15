@@ -78,6 +78,7 @@ footer .container {
 
 footer .container i {
     padding-left: 2.5em;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 .custom-card-title {
@@ -86,4 +87,21 @@ footer .container i {
 
 .activator:hover {
   cursor: pointer;
+}
+
+#delete-button a {
+    color: inherit;
+}
+
+#delete-button {
+    width: 20%;
+    padding: 0 0 0 1%;
+}
+
+#delete-button i {
+    padding-right: 10%;
+}
+
+#submit-button {
+    width: 30%;
 }
