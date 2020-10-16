@@ -26,6 +26,8 @@ There were a few project ideas suggested, and I chose to try and create an onlin
     - [**Features**](#features)
 2. [**Technologies Used**](#technologies-used)
 3. [**Testing and Features Left to Implement**](#testing-and-features-left-to-implement)
+    - [**Testing**](#testing)
+    - [**Features Left to Implement**](#features-left-to-implement)
 4. [**Credits**](#credits)
     - [**Content**](#content)
     - [**Media**](#media)
@@ -83,3 +85,34 @@ External user’s goals:
 
 - **_Deployment_**
     - Heroku
+
+## **Testing and Features Left to Implement**
+
+### **Testing**
+
+### **Features Left to Implement**
+
+**_Carousel "randomizer"_**
+
+Currently, the carousel and the index page displays all the images from the database, 
+in the sequence in which they are stored in the database, which is chronologically. And the 
+sequence resets - i.e. starts from the beginning - each time the index page is loaded.
+
+So, if an image stored in the database last, it would go to the back of the carousel, and get displayed last. 
+It's a FIFO principle, basically (**F**irst **I**n **F**irst **O**ut - i.e. what is stored in the database 
+first, is displayed out in the carousel first also).
+
+With a larger number of entries, some of the images would in practice never get displayed, or more precicely, 
+they would never get _seen_, as it could be not expected for a user to stay on the index page long enough for those 
+particulary images to be displayed on the carousel.
+
+Or, in other words, some of the images would not "get a fair chance to be seen". And the idea, or the desire, is that all 
+images, which represent recipes, get treated equally in that regard.
+
+I attempted to change the "step" option of the carousel - i.e. parameter which controls the image display pattern: default "step" is 1, 
+which means the carousel displays the next image in the que. So if the "step" is set to, for instance, 3, the carousel would display every 
+third image. But, that doesn't visually look right, becuase the transition to the following image doesn't render seamlessly, but it rather 
+looks like the carousel is spinning at great speed until it reaches the desired image.
+
+So a "carousel randomizer" is an idea where the carousel is set to display images in random sequence, and the sequence is randomized (or "shuffled") 
+anew every time the index page is loaded.
