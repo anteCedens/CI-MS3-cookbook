@@ -16,10 +16,14 @@ There were a few project ideas suggested, and I chose to try and create an onlin
 ---
 
 ## Table of Contents
-1. [**UX**](#user-experience)
+1. [**UX**](#ux)
     - [**User Stories**](#user-stories)
     - [**Strategy**](#strategy)
     - [**Scope**](#scope)
     - [**Structure**](#structure)
     - [**Skeleton**](#skeleton)
     - [**Surface**](#surface)
+
+---
+
+## **UX**

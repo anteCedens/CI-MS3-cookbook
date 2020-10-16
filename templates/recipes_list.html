@@ -10,6 +10,7 @@
           class="card-size"
           src="{{recipe.image_src}}
 "
+          alt="recipe card image"
         />
         <a
           href="{{url_for('edit_recipe', recipe_id=recipe._id)}}"
@@ -23,7 +24,10 @@
         <span class="card-title grey-text text-darken-4"
           ><div class="custom-card-title">{{recipe.recipe_name}}</div>
           <i class="material-icons right medium"
-            ><a class="tooltipped activator" data-position="bottom" data-tooltip="Preview"
+            ><a
+              class="tooltipped activator"
+              data-position="bottom"
+              data-tooltip="Preview"
               >unfold_more</a
             ></i
           ></span
