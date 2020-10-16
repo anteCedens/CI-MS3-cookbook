@@ -80,7 +80,6 @@ footer .container {
 }
 
 footer .container i {
-  /*padding-left: 2.5em;*/
   text-shadow: 2px 2px 4px #000000;
 }
 
@@ -140,11 +139,6 @@ footer .container i {
 #about-text p {
   font-size: 1.5em;
   font-family: "Indie Flower", cursive;
-  /*font-family: "Architects Daughter", cursive;*/
-  /*font-family: "Amatic SC", cursive;*/
-  /*font-family: "Sansita Swashed", cursive;*/
-  /*font-family: "Chilanka", cursive;*/
-  /*font-family: "Josefin Sans", cursive;*/
 }
 
 #mobile-demo {
@@ -202,44 +196,6 @@ footer .container i {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* ------------------------Split the screen in half------------------- */
-/*.split {
-  height: 100%;
-  width: 50%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-/* Control the left side */
-/*.left {
-  left: 0;
-}
-
-/* Control the right side */
-/*.right {
-  right: 0;
-}
-
-/* If you want the content centered horizontally and vertically */
-/*.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-/* Style the image inside the centered container, if needed */
-/*.centered img {
-  width: 100%;
-  border-radius: 50%;
-}
-
-/* ------------------------Split the screen in half (end)------------------- */
 
 #page-404 {
   height: 100%;
