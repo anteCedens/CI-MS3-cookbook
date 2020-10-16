@@ -4,6 +4,12 @@
   <div class="container center">
     <h2>{{recipe.recipe_name}}</h2>
     <img src="{{recipe.image_src}}" />
+    <div class="row"><p>{{recipe.recipe_description}}</p></div>
+    <div class="row">
+      <p class="bold-font">
+        <i class="material-icons prefix">alarm</i> {{recipe.preparation_time}}
+      </p>
+    </div>
     <p>{{recipe.recipe_description}}</p>
   </div>
 </div>
