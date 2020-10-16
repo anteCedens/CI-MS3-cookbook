@@ -17,11 +17,11 @@ There were a few project ideas suggested, and I chose to try and create an onlin
 
 ## Table of Contents
 1. [**UX**](#ux)
-    - [**User Stories**](#user-stories)
-    - [**Strategy**](#strategy)
-    - [**Scope**](#scope)
-    - [**Structure**](#structure)
-    - [**Skeleton**](#skeleton)
+    - [**Project Purpose**](#project-purpose)
+        - [**_User Stories_**](#user-stories)
+    - [**Design**](#design)
+        - [**_Navigation_**](#navigation)
+        - [**_Responsive Design_**](#responcive-design)
     - [**Surface**](#surface)
 
 ---
