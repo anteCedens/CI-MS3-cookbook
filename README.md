@@ -116,3 +116,23 @@ looks like the carousel is spinning at great speed until it reaches the desired 
 
 So a "carousel randomizer" is an idea where the carousel is set to display images in random sequence, and the sequence is randomized (or "shuffled") 
 anew every time the index page is loaded.
+
+**_Delete confirmation_**
+
+Currently the delete button in the Edit Recipe form form is set up that you only press it once, and the recipe is deleted. I'd like to have an additional 
+"delete confirmation" feature set up: when the delete button is pressed, a message would pop up (using a Materialize "modal", for instance) asking the user 
+to confirm deletion.
+
+**_Character restriciton_**
+
+Currently, there is no character restriction in the forms, when adding a new recipe. Implementing such a feature might be beneficial, namely for such fields in 
+the form as the recipe's name, and short description.
+
+**_Further form styling_**
+
+Maybe make the forms (for adding and editing recipes) more visually appeling, based on user feedback, in regards to typography, or button styling. Possibly adding further data entry fields about the recipes, such 
+as serving, ingredients, course (main, side, starter, etc.), or meal (breakfast, lunch, dinner).
+
+**_Search bar_**
+
+Currently there is none.
