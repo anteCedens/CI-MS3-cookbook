@@ -55,3 +55,27 @@ External user’s goals:
 
 ### **Design**
 
+## **Technologies Used**
+
+- **_IDE and code storage_**
+    - GitPod - used as the online IDE
+    - GitHub - for the storage of the code online
+- **_Back-End_**
+    - Python 3
+        - Flask
+        - Jinja
+        - PyMongo
+        - DNSPython
+- **_Database_**
+    - MongoDB Atlas
+- **_Front-End_**
+    - HTML
+    - CSS
+        - Materialize
+        - Material Icons
+        - Font Awesome
+    - JavaScript
+        - jQuery
+
+- **_Deployment_**
+    - Heroku
