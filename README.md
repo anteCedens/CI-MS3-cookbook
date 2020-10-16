@@ -27,3 +27,16 @@ There were a few project ideas suggested, and I chose to try and create an onlin
 ---
 
 ## **UX**
+
+### **Project Purpose**
+
+In addition to what was already mentioned above, like the data 
+handling infrastrucutre (building a MongoDB-backed Flask-based web app), 
+the core focus of the project is providing a CRUD (**C**reate, **R**ead, **U**pdate, **D**elete) functionality for a user 
+through a main navigation menu and a structured layout.
+
+In other words:
+
+>create functionality for users to create, locate, display, edit and delete records.
+
+
