@@ -16,17 +16,20 @@ There were a few project ideas suggested, and I chose to try and create an onlin
 ---
 
 ## Table of Contents
-1. [**UX**](#ux)
+1. [**Design and Features**](#design-and-features)
     - [**Project Purpose**](#project-purpose)
         - [**_User Stories_**](#user-stories)
     - [**Design**](#design)
         - [**_Navigation_**](#navigation)
         - [**_Responsive Design_**](#responcive-design)
-    - [**Surface**](#surface)
+        - [**_Wireframes_**](#wireframes)
+    - [**Features**](#features)
+2. [**Technologies Used**](#technologies-used)
+3. [**Testing and Features Left to Implement**](#testing-and-features-left-to-implement)
 
 ---
 
-## **UX**
+## **Design and Features**
 
 ### **Project Purpose**
 
@@ -50,4 +53,5 @@ External user’s goals:
 - The site is visually catchy and easy enough and simple to use
 - The site offers some kind of browse-through list or gallery of recipes, with recipe images included
 
+### **Design**
 
