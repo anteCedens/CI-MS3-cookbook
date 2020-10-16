@@ -37,6 +37,17 @@ through a main navigation menu and a structured layout.
 
 In other words:
 
->create functionality for users to create, locate, display, edit and delete records.
+>create functionality for users to create, locate, display, edit and delete records
+
+and also hopefully do that in a both visually appealing and user friendly manner (ease of use).
+
+
+#### **_User Stories_**
+
+External user’s goals:
+
+- Find and share recipes
+- The site is visually catchy and easy enough and simple to use
+- The site offers some kind of browse-through list or gallery of recipes, with recipe images included
 
 
