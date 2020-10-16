@@ -104,3 +104,6 @@ if __name__ == '__main__':
     app.run(host=os.environ.get('IP'),
             port=int(os.environ.get('PORT')),
             debug=False)
+
+# Some notes about running Flask applications in a production environment with debugging disabled:
+        # https://help.semmle.com/wiki/display/PYTHON/Flask+app+is+run+in+debug+mode
