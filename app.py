@@ -56,7 +56,7 @@ def update_recipe(recipe_id):
         'preparation_time': request.form.get('preparation_time'),
         'recipe_description': request.form.get('recipe_description'),
         'image_src': request.form.get('image_src'),
-        'recipe_details': request.form.get('recipe_details'),
+        'recipe_details': request.form.get('recipe_details')
     })
     return redirect(url_for('recipes_list'))
 
