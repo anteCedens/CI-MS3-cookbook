@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+<!--Adding 'custom' favicon-->
     <link
       rel="shortcut icon"
       href="{{url_for('static', filename='img/Q-favicon3.ico')}}"
     />
+
+<!--Importing libraries: Materialize, Material Icons, Font Awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
@@ -20,6 +25,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
+
+<!--Local css file to be refered to last-->
     <link
       rel="stylesheet"
       href="{{url_for('static', filename='css/style.css')}}"
@@ -27,7 +34,10 @@
     />
     <title>Q-zine</title>
   </head>
+
   <body>
+
+<!--Navbar and footer are to be rendered on every page-->
     <nav>
       <div class="nav-wrapper">
         <a href="{{url_for('index_page')}}" class="brand-logo" id="logo-button"
@@ -49,8 +59,10 @@
       </div>
     </nav>
 
+<!--'Page specific' content for every individual page is to be 'injected' here-->
     {% block content %} {% endblock %}
 
+<!--Navbar and footer are to be rendered on every page-->
     <footer class="page-footer footer-copyright">
       <div class="container">
         © 2020 Copyright UVC
