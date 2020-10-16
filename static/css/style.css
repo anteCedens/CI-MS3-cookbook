@@ -253,3 +253,8 @@ footer .container i {
   background-repeat: no-repeat;
   border-top: 1px solid transparent; /* Bug fix */
 }
+
+#recipe-details-outer img {
+  width: 25em;
+  border-radius: 50%;
+}
