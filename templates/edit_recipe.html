@@ -62,6 +62,23 @@
                   <label for="icon_prefix">Recipe Image Link</label>
                 </div>
               </div>
+              <br />
+              <br />
+
+              <div class="row">
+                <div class="input-field col s12">
+                  <i class="material-icons prefix">subject</i>
+                  <textarea
+                    name="recipe_details"
+                    id="recipe_details"
+                    class="materialize-textarea"
+                  >
+    {{recipe.recipe_details}}</textarea
+                  >
+                  <label for="icon_prefix">Recipe Detailed Description</label>
+                </div>
+              </div>
+
               <div class="row">
                 <button
                   class="btn waves-effect waves-light z-depth-5 text-s"
@@ -72,6 +89,7 @@
                   <i class="material-icons right">autorenew</i>
                 </button>
               </div>
+
               <div class="row">
                 <button
                   class="btn waves-effect waves-light red darken-1 z-depth-5"
