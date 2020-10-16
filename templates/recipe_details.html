@@ -1,16 +1,22 @@
 {% extends 'base.html' %} {% block content %}
 
 <div id="recipe-details-outer">
-  <div class="container center">
+
+  <div class="center">
+
     <h2>{{recipe.recipe_name}}</h2>
+
     <img src="{{recipe.image_src}}" />
+
     <p>{{recipe.recipe_description}}</p>
     
-      <p class="bold-font">
+    <p class="bold-font">
         <i class="material-icons prefix">alarm</i> {{recipe.preparation_time}}
-      </p>
+    </p>
     
    <p>{{recipe.recipe_details}}</p>
+
   </div>
+
 </div>
 {% endblock %}
