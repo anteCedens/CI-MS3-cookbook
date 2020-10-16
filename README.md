@@ -26,6 +26,10 @@ There were a few project ideas suggested, and I chose to try and create an onlin
     - [**Features**](#features)
 2. [**Technologies Used**](#technologies-used)
 3. [**Testing and Features Left to Implement**](#testing-and-features-left-to-implement)
+4. [**Credits**](#credits)
+    - [**Content**](#content)
+    - [**Media**](#media)
+    - [**Acknowledgements**](#acknowledgements)
 
 ---
 
