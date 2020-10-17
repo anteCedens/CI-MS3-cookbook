@@ -136,3 +136,67 @@ as serving, ingredients, course (main, side, starter, etc.), or meal (breakfast,
 **_Search bar_**
 
 Currently there is none.
+
+## **Credits**
+
+### **Content**
+
+Content on the index and About pages was written by me.
+
+Recipes entered in the database at the moment of writting this, were taken from these sources:
+
+- https://tasty.co/recipe/baked-avocado-eggs
+- https://www.delish.com/cooking/recipe-ideas/a26728380/baked-pineapple-salmon-recipe/
+- https://www.bbcgoodfood.com/recipes/spaghetti-meatballs
+- https://www.allrecipes.com/recipe/257198/thin-crust-pizza-dough/
+- https://www.bbcgoodfood.com/recipes/chorizo-mozzarella-gnocchi-bake
+
+### **Media**
+
+All recipes images diplayed on the site as of the moment of writting this are rendered via their URL's, so a source 
+for the image is always evident.
+
+All the other images used, stored in the project on GitPod, are from:
+
+- https://hipwallpaper.com/
+- https://wallpaperaccess.com/
+
+except for the 404 image, which is from:
+
+- https://www.freepik.com/
+
+Icons used are from:
+
+- https://material.io/resources/icons/?style=baseline
+- https://fontawesome.com/
+
+### **Acknowledgements**
+
+For the core know-how on how to build a project like this, I've used Code Institutes "Task Manager" 
+tutorial project:
+
+- https://github.com/Code-Institute-Solutions/TaskManager
+
+As designing an online cookbook specifically, I've browsed through my fellow students' projects, 
+such as:
+
+- https://github.com/sohailshams/cookbook
+- https://github.com/sabinemm/recipe-site-ms3
+- https://github.com/amybru/byoboba
+- https://github.com/Trevbytes/Chickpeas
+- https://github.com/ss00831/milestone3
+- https://github.com/ajgoward/daddies_recipes_MS3
+- https://github.com/lewisclark4/CI-MilestoneProjectThree
+- https://github.com/ceciliabinck/cook-with-me
+
+As writing the readme.md goes, for me, since project one, it's always been W.D.C.L.D.: 
+What Did Claire Lally Do?:
+
+- https://github.com/ClaireLally8
+
+Other resources used:
+
+- https://www.lipsum.com/
+- https://www.diffchecker.com/diff
+- https://jpg2png.com/
+- https://convertico.com/
