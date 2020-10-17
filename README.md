@@ -228,6 +228,9 @@ In regards to the forms' functionality, i.e. writing to the database, there seem
 if, let's say, an entry (i.e. recipe) is first created (i.e. added), and then updated four times, those fields would then be recorded in the database as 
 having five blank spaces entered at the beginning, and read (i.e. displayed) as such back on the page when the form is reopened. This hasn't been dealt with as of yet.
 
+At the very end of the project's development, a major bug seem to have arose in regards to the "delete" functionality. Although everything seemed fine at the earlier stages of development with this, the delete option doesn't seem to be working proprely now. 
+When a project is deployed to Heroku for the first time, the delete function works. But after that, every time delete is used, the app treats it as an update. The function doesn't seem to be working through GitPod either.
+
 #### **_Deployment_**
 
 ##### **_Local Deployment_**
