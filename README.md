@@ -21,7 +21,7 @@ There were a few project ideas suggested, and I chose to try and create an onlin
         - [**_User Stories_**](#user-stories)
     - [**Design**](#design)
         - [**_Navigation_**](#navigation)
-        - [**_Responsive Design_**](#responcive-design)
+        - [**_Responsive Design_**](#responsive-design)
         - [**_Wireframes_**](#wireframes)
     - [**Features**](#features)
 2. [**Technologies Used**](#technologies-used)
@@ -61,6 +61,15 @@ External user’s goals:
 
 ### **Design**
 
+#### **_Navigation_**
+
+#### **_Responsive Design_**
+
+The project basically takes on Materialize's responsive design structure, with practically no alterations.
+
+Main feature on smaller screen, as opposed to the desktop view, is that the navbar's links to the subsites 
+condense into a hamburger menu, which then open the sidebar where those links are now located.
+
 #### **_Wireframes_**
 Some (staggeringly) crude wireframes (yep, I do (still) use a pen(cil) and paper)) can be 
 seen here:
@@ -70,6 +79,10 @@ seen here:
 
 MongoDB collection schema example for the project can be seen here:
 - [MongoDB collection schema](wireframes/MS3_MongoDB_schema.JPG)
+
+
+### **Features**
+
 
 ## **Technologies Used**
 
