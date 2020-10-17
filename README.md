@@ -67,12 +67,20 @@ External user’s goals:
 ### **Design**
 
 Site uses two fonts:
- - Lobster
- - Indie Flower
+ - `Lobster`
+ - `Indie Flower`
 
  `Lobster` is primarily used for heading, and `Indie Flower` for paragraph based text. Idea was to use two fonts 
  that work well together, in both how they look combined on the page, and that they complement each other: 
  `Lobster` makes the heading stand out more, and `Indie Flower` increases readability, when there is more text.
+
+ The fonts were also chosen to fit semantically with the site's imagery, in trying to provide a "homey", "casual" feeling 
+ to the site - something evocative of "home cooking" - while on the other hand trying to maintain an impression of something 
+ nevertheless "professionally designed".
+
+ So, for instance, `Lobster` can be evocative of a fine dining menu look, while on the other hand still remaining not too stern, or "serious"; 
+ `Indie Flower` looks like a handwritten font, evocative of recipes in household family cookbooks, while on the other hand still being not too "scribly" (as actual handwriting can be), and 
+ thus still maintaining needed level of readability.
 
 #### **_Navigation_**
 
