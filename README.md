@@ -205,6 +205,20 @@ simplystically put "doesn't like images", so providing a user to eneter a link t
 
 ### **Testing**
 
+Apart from manual testing as the project was buing built, code was tested with:
+
+- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [JSHint](https://jshint.com/)
+- [PEP8](http://pep8online.com/)
+
+`HTML Validator` showed only Jinja related or caused errors: missing doctype and lang, use of "{" not allowed on particular 
+place, etc., appart from one error, where it stated that a "div" is not allowed as child of a "span", which was remedied.
+
+`CSS Validator` and `JSHint` showed no errors.
+
+`PEP8` pointed out only things like too much spacing and too many characters in a line.
+
 #### **_Deployment_**
 
 ##### **_Local Deployment_**
