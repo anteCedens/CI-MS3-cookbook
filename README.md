@@ -24,6 +24,8 @@ There were a few project ideas suggested, and I chose to try and create an onlin
     - [**Project Purpose**](#project-purpose)
         - [**_User Stories_**](#user-stories)
     - [**Design**](#design)
+        - [**_Fonts_**](#fonts)
+        - [**_Images_**](#images)
         - [**_Navigation_**](#navigation)
         - [**_Responsive Design_**](#responsive-design)
         - [**_Wireframes_**](#wireframes)
@@ -66,6 +68,8 @@ External user’s goals:
 
 ### **Design**
 
+#### **_Fonts_**
+
 Site uses two fonts:
  - `Lobster`
  - `Indie Flower`
@@ -81,6 +85,27 @@ Site uses two fonts:
  So, for instance, `Lobster` can be evocative of a fine dining menu look, while on the other hand still remaining not too stern, or "serious"; 
  `Indie Flower` looks like a handwritten font, evocative of recipes in household family cookbooks, while on the other hand still being not too "scribly" (as actual handwriting can be), and 
  thus still maintaining needed level of readability.
+
+#### **_Images_**
+
+ Following what is described about the fonts, imagery used tries to follow suite in maintaining than balance, and giving an coherent desired overall feel. 
+
+ Index page and the About page have the same background image, thus linking them together.
+
+ That image is of a cup of cofee on a saucer with some pastry. The image is postion on the far right of the background, leaving a lot of white space to the left: 
+ that space is utilized to display site's images (carousel on the index page) and text without obscuring them.
+
+ The image itself gives that "homey" feel - while still being clearly professionally done and staged (the placement of the cinammon decorations etc.) - it is evocative of having somebody over to your home, and serving them a cup 
+ of cofee and some pastry - maybe while waiting for a homecooked meal to be ready (connects to the index page, the landing page, the first page - you just got here, welcome); or maybe just after you've finished such a meal (connects to the 
+ About page - we've eaten, it's cofee time, time to talk "about", about yourselves possibly (About page is about the site)).
+
+ Navbar and footer background is the same, and is the same on all the subsites. It's reminiscent of a tablecloth - possibly a fine dining one, possibly a special occassions home-kept one. What suggests a tablecloth is that the background isn't 
+ "just red" for instance: it hassome shadows, slight crinkles, etc. The shadows work well with the text.
+
+ The text color of the navbar and footer is white, over a dark background; while the text on the index and About pages is black, over a white background - providing an opposite contrast relation between tha navbar and footer, and pages' text.
+
+ 
+
 
 #### **_Navigation_**
 
