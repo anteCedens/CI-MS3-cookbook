@@ -1,3 +1,4 @@
+/*Importing desired Google fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
 
@@ -17,7 +18,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 125%;
-  border-top: 1px solid transparent; /* Bug fix */
+  border-top: 1px solid transparent; /* Bug fix (rather crude) - unwanted 
+  blank space would appear between the background image and the navbar */
 }
 
 .carousel {
@@ -115,7 +117,7 @@ footer .container i {
 }
 
 #add-recipe-outer {
-  height: 140%; /* Brute force bug fix */
+  height: 140%; /* Brute force bug fix - footer would unwantingly expand in height */
   background-image: url("../img/fYQk0K.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -169,17 +171,6 @@ footer .container i {
 #recipe-details-outer p {
   font-weight: 900;
   font-size: 2em;
-}
-
-#recipe-details-text {
-  width: 50%;
-  border: 2px solid blue;
-}
-
-#recipe-details-img {
-  width: 50%;
-  position: absolute;
-  border: 2px solid red;
 }
 
 #edit-recipe-form {
