@@ -104,7 +104,20 @@ Site uses two fonts:
 
  The text color of the navbar and footer is white, over a dark background; while the text on the index and About pages is black, over a white background - providing an opposite contrast relation between tha navbar and footer, and pages' text.
 
- 
+ The "Browse Recipes" page displays recipes on cards. The layout is four cards per row on desktop. 
+ The background of the pafe is white, with no image, so as not to obstruct viewing of the recipe cards.
+
+ Rest of the pages are concerned with the recipes' text. They either provide a detailed viewing of a selected recipe, or a form for either editing or adding a recipe. 
+ All those pages have the same background image: that of an old, worn-out cookbook, opened wide on a blank page. That would be evocative of an old family cookbook, that's been 
+ in one's home for a while.
+
+ The form that opens for adding a new recipe has it's own background, over the cookbook: that of a piece of paper from a notebook. Some of those old family cookbooks sometimes 
+ have pages from other notebooks with recipes inserted into them, for instance as the cookbook gets filled out over time, and there's no more space for new recipes, etc.
+
+ The form for editing an existing recipe also has a notebook paper background, but in this case that piece of paper is crinkled (as oposed to the smooth one for adding a new recipe): 
+ symbolically, the idea is that when you add a new recipe the page is new, not written on before; when you edit a recipe, the page has already been in use, so it shows signs of wear, it's been crinkled.
+
+ When you open a detailed recipe view, you're just seeing the recipe over the old cookbook backround: you reading a recipe "from the book", that made into the book, is neither being just entered, nor edited.  
 
 
 #### **_Navigation_**
