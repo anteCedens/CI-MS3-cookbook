@@ -68,6 +68,9 @@ seen here:
 - [recipe list page](wireframes/sketch_recipe_list_page.JPG)
 - [recipe card layout](wireframes/sketch_recipe_card.JPG)
 
+MongoDB collection schema example for the project can be seen here:
+- [MongoDB collection schema](wireframes/MS3_MongoDB_schema.JPG)
+
 ## **Technologies Used**
 
 - **_IDE and code storage_**
