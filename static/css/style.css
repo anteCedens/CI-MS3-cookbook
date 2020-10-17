@@ -18,8 +18,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 125%;
-  border-top: 1px solid transparent; /* Bug fix (rather crude) - unwanted 
-  blank space would appear between the background image and the navbar */
+  padding-top: 1em;
 }
 
 .carousel {
@@ -38,7 +37,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 125%;
   color: black;
-  border-top: 1px solid transparent; /* Bug fix */
+  padding: 2.5em 5em 2.5em 5em;
 }
 
 #welcome-text {
@@ -117,21 +116,19 @@ footer .container i {
 }
 
 #add-recipe-outer {
-  height: 140%; /* Brute force bug fix - footer would unwantingly expand in height */
   background-image: url("../img/fYQk0K.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 1px solid transparent; /* Bug fix */
+  padding: 2.5em 5em 2.5em 5em;
 }
 
 #edit-recipe-outer {
-  height: 140%; /* Brute force bug fix */
   background-image: url("../img/fYQk0K.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 1px solid transparent; /* Bug fix */
+  padding: 2.5em 5em 2.5em 5em;
 }
 
 #about-text {
@@ -160,13 +157,12 @@ footer .container i {
 }
 
 #recipe-details-outer {
-  height: 140%; /* Brute force bug fix */
+  height: fit-content;
   background-image: url("../img/fYQk0K.jpg");
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-size: cover;
-  border-top: 1px solid transparent; /* Bug fix */
-  padding: 0 5em 0 5em;
+  padding: 2.5em 5em 2.5em 5em;
 }
 
 #recipe-details-outer p {
@@ -193,7 +189,7 @@ footer .container i {
   background-image: url("../img/error-404-concept-landing-page_52683-18367.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  border-top: 1px solid transparent; /* Bug fix */
+  padding-top: 1em;
 }
 
 #recipe-details-outer img {
