@@ -233,9 +233,9 @@ border has been added.
 
 This is marked with comments in style.css, and remains so until the causes are figured out, and a better solution is found.
 
-In regards to the forms, i.e. writing to the database, if a field is left blank, one blanked space is entered to the corresponding value field in the database, each time a writing occurs. So, 
-if, let's say, an entry (i.e. recipe) is first created (i.e. added) with a blank field, and then updated four times with the same field left blank, that field would then be recorded in the database as 
-having five blank spaces entered, and read (i.e. displayed) as such back on the page when the form is reopened. This hasn't been dealt with as of yet.
+In regards to the forms, i.e. writing to the database, there seem to be certain fields in them, where one blank space is added to the beginning of those fields, each time a writing (creating or updating) occurs. This happens even if those fields are left empty. So, 
+if, let's say, an entry (i.e. recipe) is first created (i.e. added), and then updated four times, those fields would then be recorded in the database as 
+having five blank spaces entered at the beginning, and read (i.e. displayed) as such back on the page when the form is reopened. This hasn't been dealt with as of yet.
 
 #### **_Deployment_**
 
