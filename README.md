@@ -11,6 +11,10 @@ Or, slightly more specifically:
 
 >Build a MongoDB-backed Flask project for a web application that allows users to store and manipulate data records about a particular domain.
 
+Another important note was:
+
+>No authentication is expected for this project. The focus is on the data, rather than any business logic.
+
 There were a few project ideas suggested, and I chose to try and create an online cookbook.
 
 ---
@@ -27,6 +31,7 @@ There were a few project ideas suggested, and I chose to try and create an onlin
 2. [**Technologies Used**](#technologies-used)
 3. [**Testing and Features Left to Implement**](#testing-and-features-left-to-implement)
     - [**Testing**](#testing)
+        - [**Deployment**](#deployment)
     - [**Features Left to Implement**](#features-left-to-implement)
 4. [**Credits**](#credits)
     - [**Content**](#content)
@@ -60,6 +65,14 @@ External user’s goals:
 - The site offers some kind of browse-through list or gallery of recipes, with recipe images included
 
 ### **Design**
+
+Site uses two fonts:
+ - Lobster
+ - Indie Flower
+
+ `Lobster` is primarily used for heading, and `Indie Flower` for paragraph based text. Idea was to use two fonts 
+ that work well together, in both how they look combined on the page, and that they complement each other: 
+ `Lobster` makes the heading stand out more, and `Indie Flower` increases readability, when there is more text.
 
 #### **_Navigation_**
 
@@ -103,6 +116,7 @@ MongoDB collection schema example for the project can be seen here:
         - Materialize
         - Material Icons
         - Font Awesome
+        - Google Fonts
     - JavaScript
         - jQuery
 
