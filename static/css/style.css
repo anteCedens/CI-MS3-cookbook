@@ -199,3 +199,11 @@ footer .container i {
   width: 25em;
   border-radius: 50%;
 }
+
+#add-recipe-outer textarea,
+#edit-recipe-outer input,
+#edit-recipe-outer textarea {
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  font-size: 1.5em;
+}
