@@ -11,7 +11,8 @@ if path.exists('env.py'):
     import env
 
 # Setting environment variables needed to connect to MongoDB
-# Those variables are to be inputed manually to Heroku to make the deployment work
+# Those variables are to be inputed manually to Heroku to make the
+# deployment work
 app.config['MONGO_DBNAME'] = os.environ.get('MONGO_DBNAME')
 app.config['MONGO_URI'] = os.environ.get('MONGO_URI')
 
@@ -26,13 +27,13 @@ def index_page():
     return render_template("index.html", recipes=mongo.db.recipes.find())
 
 
-
 # 'Browse Recipes' option from the navbar
 # Recipes are retrieved - i.e. read - from the database
 @app.route('/recipes_list')
 def recipes_list():
-    return render_template("recipes_list.html", recipes=mongo.db.recipes.find())
-
+    return render_template(
+        "recipes_list.html",
+        recipes=mongo.db.recipes.find())
 
 
 # 'Post Recipe' option from the navbar is represented with the next TWO app.route-s
@@ -42,8 +43,8 @@ def add_recipe():
     return render_template("add_recipe.html", recipes=mongo.db.recipes.find())
 
 
-
-# Second app.route insets -i.e. writes - the data entered in the 'Add a Recipe' form to the database
+# Second app.route insets -i.e. writes - the data entered in the 'Add a
+# Recipe' form to the database
 @app.route('/insert_recipe', methods=['POST'])
 def insert_recipe():
     recipes = mongo.db.recipes
@@ -61,12 +62,13 @@ def edit_recipe(recipe_id):
 
 
 # Second app.route writes (updates) the data back to the database
-# It updates the listed fields ('recipe_name' etc.) in the DB's document with the corresponding unique id
+# It updates the listed fields ('recipe_name' etc.) in the DB's document
+# with the corresponding unique id
 @app.route('/update_recipe/<recipe_id>', methods=["POST"])
 def update_recipe(recipe_id):
     recipes = mongo.db.recipes
     recipes.update({'_id': ObjectId(recipe_id)},
-                 {
+                   {
         'recipe_name': request.form.get('recipe_name'),
         'preparation_time': request.form.get('preparation_time'),
         'recipe_description': request.form.get('recipe_description'),
@@ -106,4 +108,4 @@ if __name__ == '__main__':
             debug=False)
 
 # Some notes about running Flask applications in a production environment with debugging disabled:
-        # https://help.semmle.com/wiki/display/PYTHON/Flask+app+is+run+in+debug+mode
+    # https://help.semmle.com/wiki/display/PYTHON/Flask+app+is+run+in+debug+mode
