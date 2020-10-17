@@ -166,6 +166,7 @@ footer .container i {
   background-repeat: no-repeat;
   background-size: cover;
   border-top: 1px solid transparent; /* Bug fix */
+  padding: 0 5em 0 5em;
 }
 
 #recipe-details-outer p {
