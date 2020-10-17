@@ -221,6 +221,22 @@ place, etc., appart from one error, where it stated that a "div" is not allowed 
 
 `PEP8` pointed out only things like too much spacing and too many characters in a line.
 
+As far as encountered bugs go, they're mainly to the with the CSS part, namely the background in relation to the navbar and footer.
+On certain occassions, the footer would become several times larger vertically, and would "push" the page's background up (or rather cover it), 
+as well as not "stretching" with the page's content, but rather allow the content to go over it. Currently this is being dealt with in a rather brute force sort 
+of, where the height of the background has been incresed to a certain percetage above 100%, until it reaches the point where it "forces" the footer to "sit back" 
+in it's place and "behave normally"
+
+Also, on certain ocassions an unwanted white space would appear horizontally between the given page's background image and the navbar. Adding any sort of top border to the 
+background ("any sort" meaning of whatever thickness) seemed to immediately remedy this. So this is being dealt with with a no less brute force workaround, where a transparent 1px top 
+border has been added.
+
+This is marked with comments in style.css, and remains so until the causes are figured out, and a better solution is found.
+
+In regards to the forms, i.e. writing to the database, if a field is left blank, one blanked space is entered to the corresponding value field in the database, each time a writing occurs. So, 
+if, let's say, an entry (i.e. recipe) is first created (i.e. added) with a blank field, and then updated four times with the same field left blank, that field would then be recorded in the database as 
+having five blank spaces entered, and read (i.e. displayed) as such back on the page when the form is reopened. This hasn't been dealt with as of yet.
+
 #### **_Deployment_**
 
 ##### **_Local Deployment_**
@@ -377,8 +393,8 @@ such as:
 - https://github.com/lewisclark4/CI-MilestoneProjectThree
 - https://github.com/ceciliabinck/cook-with-me
 
-As writing the readme.md goes, for me, since project one, it's always been W.D.C.L.D.: 
-What Did Claire Lally Do?:
+As writing the readme.md goes, for me, since project one, when in doubt or stuck, it's always been W.W.C.L.D.: 
+What Would Claire Lally Do?:
 
 - https://github.com/ClaireLally8
 
