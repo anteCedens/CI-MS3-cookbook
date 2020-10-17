@@ -8,10 +8,9 @@ $(document).ready(function () {
     $(".carousel").carousel("next");
   }, 2500);
 
-// Materialize's site (https://materializecss.com/select.html) actually lists a different jQuery code here
-// but that did not work for me - the 'select' element wouldn't initialize
-// so I refered here for the code that worked: 
-                // https://github.com/Code-Institute-Solutions/TaskManager/tree/master/01-PuttingTheBasicsInPlace/07-accordion_setup
+// Since I've used Materialize 0.100.2, this is the jQuery that works for the "select" element
+// Had Materialize 1.0.0 been used, a different code would be needed here: $('select').formSelect();
+// As listed on Materilaze's site
   $("select").material_select();
   $(".collapsible").collapsible();
   $(".button-collapse").sideNav();

@@ -215,7 +215,9 @@ Apart from manual testing as the project was buing built, code was tested with:
 `HTML Validator` showed only Jinja related or caused errors: missing doctype and lang, use of "{" not allowed on particular 
 place, etc., appart from one error, where it stated that a "div" is not allowed as child of a "span", which was remedied.
 
-`CSS Validator` and `JSHint` showed no errors.
+`CSS Validator` showed no errors.
+
+`JSHint` only pointed out "$" as an "undefined variable" - since jQuery was used.
 
 `PEP8` pointed out only things like too much spacing and too many characters in a line.
 
@@ -311,6 +313,8 @@ to confirm deletion.
 
 Currently, there is no character restriction in the forms, when adding a new recipe. Implementing such a feature might be beneficial, namely for such fields in 
 the form as the recipe's name, and short description.
+
+Also, additional form validation functionalities are to be considered.
 
 **_Further form styling_**
 
