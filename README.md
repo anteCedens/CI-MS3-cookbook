@@ -132,6 +132,9 @@ Navbar and footer appear on all the site's pages.
 The recipes' cards on the "Browse Recipes" page have buttons, in the form of either just icons, or buttons with text inside, that lead to the Edit Recipe form, page where the recipe's details are displayed, 
 or they show a short preview of the recipe.
 
+Sidebar that become functional on smaller screen has a background image of a wooden spoon full of salt: again something simple and "homey", but also clearly professionally taken. The image is centered and vertically 
+focused, which works well with the sidebar.
+
 #### **_Responsive Design_**
 
 The project basically takes on Materialize's responsive design structure, with practically no alterations.
@@ -153,6 +156,21 @@ MongoDB collection schema example for the project can be seen here:
 
 ### **Features**
 
+Index page has a carousel diplaying images of entered recipes.
+
+The site offers a CRUD functionality. All of the recipes are displayed ("read" from the database) on the "Browse Recipes" page, in the shape of cards. Cards provide buttons to: 
+- "preview" a recipe - opens up a short recipe description and preparation time over the card, without leaving the page; 
+also includes a button that leads to the full recipe description page
+- "edit" a recipe - leads to the edit ("update" in the database) / delete form for that recipe
+- "view" - opens a detailed view of that recipe
+
+Preview and Edit buttons are icons only, with no text, but they provide a tooltip text when hovered over.
+View button is a button with text in it.
+
+"Post Recipe" page open a form to add a new recipe ("create" an entry in the database).
+
+Recipe images are stored via links, rather than being uploaded: this is because I was informed that because of Heroku's "ephemeral" setup, it, 
+simplystically put "doesn't like images", so providing a user to eneter a link to the image is the approach I should take. 
 
 ## **Technologies Used**
 
