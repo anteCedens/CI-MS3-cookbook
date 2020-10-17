@@ -34,6 +34,8 @@ There were a few project ideas suggested, and I chose to try and create an onlin
 3. [**Testing and Features Left to Implement**](#testing-and-features-left-to-implement)
     - [**Testing**](#testing)
         - [**Deployment**](#deployment)
+            - [**Local Deployment**](#local-deployment)
+            - [**Remote Deployment**](#remote-deployment)
     - [**Features Left to Implement**](#features-left-to-implement)
 4. [**Credits**](#credits)
     - [**Content**](#content)
@@ -201,6 +203,61 @@ simplystically put "doesn't like images", so providing a user to eneter a link t
 ## **Testing and Features Left to Implement**
 
 ### **Testing**
+
+#### **_Deployment_**
+
+##### **_Local Deployment_**
+
+
+In order to run this project locally, you will need to install: 
+- An IDE of your choice (VS Code, etc.)
+- [Python3](https://www.python.org/downloads/)
+- [PIP](https://pip.pypa.io/en/stable/installing/) - to install the app's requirements (listed in the "requirements.txt")
+- [GIT](https://www.atlassian.com/git/tutorials/install-git) - for version control
+- [MongoDB](https://www.mongodb.com/) - to work with the database
+
+
+After this is installed, download the .ZIP file of the repository, unzip this file, and then:
+
+- in the CLI with GIT installed, enter the following command: 
+   
+        https://github.com/anteCedens/CI-MS3-cookbook.git
+
+- navigate to the to path using the `cd` command. 
+- create an `env` file with your credentials (values)
+- install all of the app's requirements for running, listed in the requirements.txt file, by using the following command:
+    
+        sudo -H pip3 -r requirements.txt
+
+- sign up for a free account on [MongoDB Atlas](https://www.mongodb.com/) and create a new database called "ci_ms3_cookbook". Name of the database collection 
+can be seen here: [MongoDB collection schema](wireframes/MS3_MongoDB_schema.JPG). 
+- now you should then be able to launch your app using the following command in your terminal:
+
+        python3 app.py
+
+##### **_Remote Deployment_**
+
+To remotely run this project: 
+
+- in your GitPod workspace, create a `requirements.txt` file using this command in the terminal: `pi3p freeze > requirements.txt`.
+- create a `Procfile` using this command in the terminal: `echo web: python app.py > Procfile`.
+- `git add` and `git commit` the new requirements and Procfile and then `git push` the project to GitHub.
+- go to [Heroku](https://dashboard.heroku.com/login)
+- click the "new" button, give the project a name & set the region to Europe. 
+- from the Heroku dashboard of your newly created application, click on "Deploy" > "Deployment method" and select GitHub.
+- confirm the linking of the heroku app to the correct GitHub repository.
+- in the Heroku dashboard for the application, click on "Settings" > "Reveal Config Vars".
+- set the config variables as so:
+
+| KEY | VALUE |
+--- | --- | 
+IP | 0.0.0.0|
+PORT | 8080|
+MONGO_DBNAME | <database_name>
+MONGO_URI| mongodb+srv:// \<username>: \<password>@<cluster_name>.mongodb.net/<database_name>?retryWrites=true&w=majority 
+
+- in the Heroku dashboard, click "Deploy"
+- the application should now be deployed
 
 ### **Features Left to Implement**
 
