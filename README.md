@@ -177,7 +177,7 @@ tutorial project:
 
 - https://github.com/Code-Institute-Solutions/TaskManager
 
-As designing an online cookbook specifically, I've browsed through my fellow students' projects, 
+In regards to designing an online cookbook specifically, I've browsed through my fellow students' projects, 
 such as:
 
 - https://github.com/sohailshams/cookbook
