@@ -61,6 +61,13 @@ External user’s goals:
 
 ### **Design**
 
+#### **_Wireframes_**
+Some (staggeringly) crude wireframes (yep, I do (still) use a pen(cil) and paper)) can be 
+seen here:
+- [main/index page](wireframes/sketch_main_page.JPG)
+- [recipe list page](wireframes/sketch_recipe_list_page.JPG)
+- [recipe card layout](wireframes/sketch_recipe_card.JPG)
+
 ## **Technologies Used**
 
 - **_IDE and code storage_**
