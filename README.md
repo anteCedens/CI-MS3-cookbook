@@ -194,6 +194,7 @@ simplystically put "doesn't like images", so providing a user to eneter a link t
         - Material Icons
         - Font Awesome
         - Google Fonts
+        - Chrome DevTools
     - JavaScript
         - jQuery
 
