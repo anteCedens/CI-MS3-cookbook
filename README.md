@@ -119,15 +119,26 @@ Site uses two fonts:
 
  When you open a detailed recipe view, you're just seeing the recipe over the old cookbook backround: you reading a recipe "from the book", that made into the book, is neither being just entered, nor edited.  
 
+ There's a "Q" favicon implemented as well - corresponding to the site's name: "Q-zine" (chosen because it sounds like "cuisine").
 
 #### **_Navigation_**
+
+Navbar consist of a site title/logo, which also functions as a home button, And three other links to subsites: "Browse Recipes", "Post Recipes", and "About".
+
+Footer has some copyright text example, and links in the forms of social media icons. Those links aren't set up to lead anywhere.
+
+Navbar and footer appear on all the site's pages.
+
+The recipes' cards on the "Browse Recipes" page have buttons, in the form of either just icons, or buttons with text inside, that lead to the Edit Recipe form, page where the recipe's details are displayed, 
+or they show a short preview of the recipe.
 
 #### **_Responsive Design_**
 
 The project basically takes on Materialize's responsive design structure, with practically no alterations.
 
 Main feature on smaller screen, as opposed to the desktop view, is that the navbar's links to the subsites 
-condense into a hamburger menu, which then open the sidebar where those links are now located.
+condense into a hamburger menu, which then open the sidebar where those links are now located. On smaller screens the site's logo 
+remains in the navbar (does not get moved to the sidebar), and is centered.
 
 #### **_Wireframes_**
 Some (staggeringly) crude wireframes (yep, I do (still) use a pen(cil) and paper)) can be 
