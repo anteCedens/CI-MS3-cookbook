@@ -36,7 +36,8 @@ def recipes_list():
         recipes=mongo.db.recipes.find())
 
 
-# 'Post Recipe' option from the navbar is represented with the next TWO app.route-s
+# 'Post Recipe' option from the navbar is
+# represented with the next TWO app.route-s
 # First app.route renders the 'Add a Recipe' form
 @app.route('/add_recipe')
 def add_recipe():
@@ -107,5 +108,6 @@ if __name__ == '__main__':
             port=int(os.environ.get('PORT')),
             debug=False)
 
-# Some notes about running Flask applications in a production environment with debugging disabled:
+# Some notes about running Flask applications in
+# a production environment with debugging disabled:
     # https://help.semmle.com/wiki/display/PYTHON/Flask+app+is+run+in+debug+mode
